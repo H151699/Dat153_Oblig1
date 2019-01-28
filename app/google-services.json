@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "766975217871",
+    "firebase_url": "https://namequizeapp-cbbb1.firebaseio.com",
+    "project_id": "namequizeapp-cbbb1",
+    "storage_bucket": "namequizeapp-cbbb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766975217871:android:8dfaf2f4c81b5477",
+        "android_client_info": {
+          "package_name": "com.dat153.andrew.mnamequizeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766975217871-oiocr3gf8hn3fcvbbm4k0vdcgnvqghc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABhN8kunAnarVXTKfyRWYNjnri_gtdbsM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766975217871:android:929661b709e3bc31",
+        "android_client_info": {
+          "package_name": "jdulal.com.np.androiduploadretrieveimagesusingfirebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766975217871-ophj4lv09qfdgtbs1k5irki8vncvacmv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jdulal.com.np.androiduploadretrieveimagesusingfirebasestorage",
+            "certificate_hash": "6848e80e898cb96c6a931ffe69addb3a16455d77"
+          }
+        },
+        {
+          "client_id": "766975217871-oiocr3gf8hn3fcvbbm4k0vdcgnvqghc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABhN8kunAnarVXTKfyRWYNjnri_gtdbsM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766975217871-oiocr3gf8hn3fcvbbm4k0vdcgnvqghc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
