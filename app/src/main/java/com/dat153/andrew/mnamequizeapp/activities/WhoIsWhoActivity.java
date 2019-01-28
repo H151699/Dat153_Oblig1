@@ -286,7 +286,7 @@ public class WhoIsWhoActivity extends AppCompatActivity {
     public boolean isValidName(){
         String name1 = editText_userInput.getText().toString().trim();
         String name2 = textViewOfImg.getText().toString().trim();
-       return name1.equals(name2);
+       return name1.equalsIgnoreCase(name2);
      }//
 
     /**
