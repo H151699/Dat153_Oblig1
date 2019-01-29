@@ -251,10 +251,10 @@ public class WhoIsWhoActivity extends AppCompatActivity {
                     HashMap<String, Object> map = (HashMap<String, Object>) ds.getValue();
 
                     //urlList.add();
-                    pictureList.add((String) map.get("imgUrl"));
+                    pictureList.add((String) map.get("imgUrl")); // get key URL
 
                     // add image name to list
-                    pictureNameList.add((String)map.get("imgName"));
+                    pictureNameList.add((String)map.get("imgName")); // get name of the (key)image
                 }
 
                     loadNext();
@@ -264,6 +264,10 @@ public class WhoIsWhoActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {}
+
+
+//            @Override
+//            public void
         };
 
         imagUrl.addListenerForSingleValueEvent(valueEventListener);

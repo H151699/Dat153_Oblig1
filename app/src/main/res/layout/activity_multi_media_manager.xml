@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -36,12 +37,13 @@
         android:layout_below="@+id/txtUploadImage"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        android:src="@drawable/imagepreview" />
+        android:src="@drawable/yaomingface" />
 
     <ProgressBar
         android:id="@+id/uploadProgress"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="match_parent"
+        android:outlineAmbientShadowColor="@color/colorOrange"
         android:layout_height="wrap_content"
         android:layout_below="@id/imgPreview" />
 
@@ -53,6 +55,7 @@
         android:layout_marginTop="40px"
         android:text="Choose image  from gallery"
         android:textSize="18sp" />
+
     <!-- android:drawableLeft="@drawable/icon_camera"  -->
 
     <EditText
@@ -63,15 +66,17 @@
         android:layout_marginTop="56dp"
         android:layout_marginBottom="10dp"
         android:hint="Re name your image"
+        android:textAlignment="center"
         android:layout_centerInParent="true"/>
 
     <Button
         android:id="@+id/btnUploadImage"
-        android:layout_width="wrap_content"
+        android:layout_width="198dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="10dp"
+        android:background="@color/colorOrange"
         android:text="Upload Image to Firebase"
         android:textSize="12sp" />
     <!-- android:drawableLeft="@drawable/icon_upload"  -->
@@ -86,6 +91,7 @@
         android:layout_marginBottom="20dp"
         android:text="View uploaded"
         android:textSize="20sp"
+
 
         />
 

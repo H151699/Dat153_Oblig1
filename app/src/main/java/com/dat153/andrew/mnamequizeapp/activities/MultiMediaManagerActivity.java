@@ -9,8 +9,6 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -44,9 +42,6 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
-
-import android.support.design.widget.FloatingActionButton;
-
 
 import java.io.File;
 import java.util.ArrayList;
@@ -202,9 +197,6 @@ public class MultiMediaManagerActivity extends AppCompatActivity {
 //            Picasso.with(this).load(imgUrl).into(imagePreview);
 //            }
 
-
-
-
         if (resultCode == Activity.RESULT_OK) {
 
             /*
@@ -246,15 +238,15 @@ public class MultiMediaManagerActivity extends AppCompatActivity {
 
 
 //        if(requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK){
-//
-//
-//            Bundle extras = data.getExtras();
-//            Bitmap imageBitmap = (Bitmap) extras.get("data");
-//
-//            imagePreview.setImageBitmap(imageBitmap);
-//
-//            //Glide.with(MultiMediaManagerActivity.this).load(imageFilePath).into(imagePreview);
-//
+////
+////
+////            Bundle extras = data.getExtras();
+////            Bitmap imageBitmap = (Bitmap) extras.get("data");
+////
+////            imagePreview.setImageBitmap(imageBitmap);
+////
+////            //Glide.with(MultiMediaManagerActivity.this).load(imageFilePath).into(imagePreview);
+////
 //
 //
 //        }

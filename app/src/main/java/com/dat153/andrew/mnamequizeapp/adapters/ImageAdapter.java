@@ -15,7 +15,10 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-
+/**
+ * RecyclerView.Adapter
+ * is to handle the data collection and bind it to the view
+ */
 public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHolder> {
     private Context mContext;
     private List<Upload> mUploads;
@@ -48,6 +51,8 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
      *
      * @param imageViewHolder
      * @param i
+     *
+     * Determine what the contents should be, based on its list position.
      */
     @Override
     public void onBindViewHolder(@NonNull ImageViewHolder imageViewHolder, int i) {
